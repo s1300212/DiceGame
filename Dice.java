@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 public class Dice{
     public static void main(String[] args){
 	int sum=0;
@@ -6,6 +7,12 @@ public class Dice{
 	int m = rand.nextInt(6)+1;
 	int a = rand.nextInt(6)+1;
 	sum += (m+a);
+	Scanner sc = new Scanner(System.in);
+	System.out.println("What is your name ?");
+	System.out.print(">");
+	String name = sc.next();
+	System.out.println("Hello,"+name);
+
 	System.out.println("Rolling dice...");
 	System.out.println("Die 1 :"+ m);
 	System.out.println("Die 2 :"+ a);
