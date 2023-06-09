@@ -10,6 +10,10 @@ public class Dice{
 	System.out.println("Die 1 :"+ m);
 	System.out.println("Die 2 :"+ a);
 	System.out.println("Total value:"+ sum);
+	if(7<sum ){System.out.println("You won");}
+	else System.out.println("You lost");
     }
+
+    
 
 }
