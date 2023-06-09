@@ -11,14 +11,14 @@ public class Dice{
 	System.out.println("What is your name ?");
 	System.out.print(">");
 	String name = sc.next();
-	System.out.println("Hello,"+name);
+	System.out.println("Hello,"+name+"!");
 
 	System.out.println("Rolling dice...");
 	System.out.println("Die 1 :"+ m);
 	System.out.println("Die 2 :"+ a);
 	System.out.println("Total value:"+ sum);
-	if(7<sum ){System.out.println("You won");}
-	else System.out.println("You lost");
+	if(7<sum ){System.out.println(name +" won!");}
+	else System.out.println(name+" lost");
     }
 
     
